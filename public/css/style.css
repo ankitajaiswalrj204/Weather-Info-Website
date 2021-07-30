@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Piazzolla;
+}
+html {
+  font-size: 90%;
+}
+body {
+  overflow: hidden;
+}
+.row {
+  margin: 0;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  background-color: black;
+  font-size: 1rem;
+  color: #fff;
+  padding-top: 2rem 0;
+}
+.footer p {
+  line-height: 2rem;
+}
+.main-menu {
+  margin: 0;
+  background-color: #1e272e;
+}
+.navbar a {
+  color: #fff;
+}
+.navbar-brand {
+  background-color: #1e272e;
+}
+.navbar button {
+  background-color: gray;
+}
+.main-header {
+  padding: 2rem 0;
+}
+.weathertx {
+  color: rgb(23, 128, 170);
+}
+
+.nav-item {
+  font-size: 18px;
+  padding: 0 0.5rem;
+}
+#main-left {
+  text-align: left;
+  align-self: center;
+  margin-bottom: 6rem;
+}
+#main-left h1 {
+  font-size: 1.8rem;
+}
+#main-left h3 {
+  font-size: 1rem;
+}
+#main-left a {
+  font-size: 12px;
+  padding: 4rem 0;
+}
+#main-left button {
+  outline: none;
+  padding: 5px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px #000;
+}
+
+#main-left button:hover {
+  box-shadow: 0 8px 6px -6px #1e272e;
+}
+.carousel-inner {
+  height: 26rem;
+}
+
+#main-r {
+  margin: auto;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#main-l {
+  padding-bottom: 2rem;
+}
+.error {
+  text-align: center;
+}
+.error img {
+  padding: 4rem 0;
+  height: 33rem;
+  margin-top: 10%;
+}
+
+.main-body {
+  text-align: center;
+  padding: 3rem 0;
+}
+.main-content {
+  width: 68%;
+  display: inline-block;
+  background-color: #1e272e;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+#city-name {
+  outline: none;
+  width: 70%;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 6px;
+  margin: 5px;
+  background-color: #1e272e;
+  border: 2px solid #1e272e;
+  border-radius: 20px;
+  color: #fff;
+}
+#city-name::placeholder {
+  color: #fff;
+}
+#submitbtn {
+  outline: none;
+  width: 3rem;
+  height: 3rem;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 6px;
+
+  border-radius: 10px;
+  font-weight: lighter;
+  background-color: whitesmoke;
+  border: 2px solid rgb(48, 170, 218);
+}
+.temInfo {
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  width: 50%;
+  background-color: #1e272e;
+  border-radius: 10px;
+  padding-bottom: 3rem;
+}
+.C-date {
+  margin-bottom: 1rem;
+  font-size: 16px;
+  padding: 5px;
+  background-color: #2d303d;
+}
+.city {
+  padding-bottom: 1rem;
+  font-size: 22px;
+}
+.temp {
+  font-size: 28px;
+}
+.icon {
+  font-size: 50px;
+  color: rgb(48, 170, 218);
+}
+
+.data-hide {
+  display: none;
+}
+#message {
+  color: red;
+  font-size: 22px;
+  font-weight: 400;
+}
+.message {
+  display: none;
+}

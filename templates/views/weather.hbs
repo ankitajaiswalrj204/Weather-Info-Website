@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{>headerlinks}}
+        
+    </head>
+    <body>
+        {{>navbar}}
+        <div class="container-fluid main-body">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="main-content">
+                        <form class="temp-form">
+                            <input type ="text" id="city-name" placeholder="Enter City Name" autocomplete="off">
+                            <button id="submitbtn"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+
+                    <div id="message" class="message"></div>
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="temInfo data-hide">
+                        <div class="row">
+                            <div class="col-md-12 col-12">
+                                <div class="C-date" id="C-date"><p>10 June Wed</p></div>
+                            </div>
+                            <div class="col-md-12 col-12">
+                                <div class="city" id="city">Delhi</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="temp"><span id="temp">32</span><sup>o</sup>C</div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="icon" id="icon"><i class="fa fa-cloud" aria-hidden="true" ></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Copyright 2021 Software Development Cell</p>
+        </footer>
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
